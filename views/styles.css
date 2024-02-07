@@ -1,0 +1,36 @@
+.calculator:nth-child(7n+1) {
+    background-color: #E6E6FA; /* Pale Violet */
+}
+
+.calculator:nth-child(7n+2) {
+    background-color: #CCCCFF; /* Pale Indigo */
+}
+
+.calculator:nth-child(7n+3) {
+    background-color: #ADD8E6; /* Pale Blue */
+}
+
+.calculator:nth-child(7n+4) {
+    background-color: #90EE90; /* Pale Green */
+}
+
+.calculator:nth-child(7n+5) {
+    background-color: #FFFFE0; /* Pale Yellow */
+}
+
+.calculator:nth-child(7n+6) {
+    background-color: #FFDAB9; /* Pale Orange */
+}
+
+.calculator:nth-child(7n+7) {
+    background-color: #FFC0CB; /* Pale Red */
+}
+
+.calculator {
+    margin: 20px;
+    border: 2px solid #000;
+    padding: 10px;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
