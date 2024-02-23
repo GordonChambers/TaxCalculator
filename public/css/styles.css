@@ -1,0 +1,80 @@
+html {
+    font-family: sans-serif;
+}
+
+.calculator:nth-child(7n+1) {
+    background-color: #E6E6FA; /* Pale Violet */
+}
+
+.calculator:nth-child(7n+2) {
+    background-color: #CCCCFF; /* Pale Indigo */
+}
+
+.calculator:nth-child(7n+3) {
+    background-color: #ADD8E6; /* Pale Blue */
+}
+
+.calculator:nth-child(7n+4) {
+    background-color: #90EE90; /* Pale Green */
+}
+
+.calculator:nth-child(7n+5) {
+    background-color: #FFFFE0; /* Pale Yellow */
+}
+
+.calculator:nth-child(7n+6) {
+    background-color: #FFDAB9; /* Pale Orange */
+}
+
+.calculator:nth-child(7n+7) {
+    background-color: #FFC0CB; /* Pale Red */
+}
+
+.calculator {
+    margin-top: 10px;
+    border: 2px solid #000;
+    padding: 12px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.line-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.line-item .line-item-value {
+    width: 70px; /* Adjust this value as needed */
+}
+
+.income {
+    width: 50px;
+}
+
+.income-name {
+    width: 300px;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+.remove-line-item {
+    background-color: #8a8a8a; /* Red background */
+    color: white; /* White text color */
+    font-size: 13px; /* Set font size */
+    border: none; /* Remove border */
+    cursor: pointer; /* Cursor style */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline-block */
+    margin: 4px 2px; /* Margin */
+    height: 18px; /* Set height */
+    width: 18px; /* Set width */
+    border-radius: 20%; /* Rounded borders */
+}
